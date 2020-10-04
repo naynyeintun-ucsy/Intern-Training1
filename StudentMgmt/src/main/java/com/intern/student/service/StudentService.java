@@ -19,7 +19,7 @@ public class StudentService {
 		return studentList;
 	}
 	
-	public Student createStudent(Student student) {
+	public Student save(Student student) {
 		return studentRepository.save(student);
 	}
 	
